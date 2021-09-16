@@ -1,5 +1,5 @@
 import express, { Application } from 'express';
-import reservasRoutes from '../routes/usuario';
+import reservasRoutes from '../routes/reservas.routes';
 import cors from 'cors';
 
 import db from '../db/connection';

@@ -5,12 +5,14 @@ import { json } from 'sequelize/types';
 export const getResevas = async( req: Request , res: Response ) => {
 
     // const usuarios = await Usuario.findAll();
-    let data = [
+
+    const totalDataNumber = 1230;
+    const data = [
         {
           // type: '分类一',
           type: 'Finalizado',
           values: [0, 56],
-          color: '#173B27'
+          color: '#072b4c'
         },
         {
           type: 'SIN_SALDO',
